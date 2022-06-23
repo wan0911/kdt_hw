@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+
+    <link rel="stylesheet" href="/calender.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="wrapper_calendar">
+        <div class="left_side">
+            <div class="left_side_header">
+                <div class="title">   
+                    <b>SCHEDULE</b><br>
+                    <input type="datetime-local">
+                </div>    
+            </div>
+           
+            <div class="left_side_main">
+                <div class="today">
+                    FRIDAY,<br>
+                    JUly 1
+                </div>
+                <div class="planner">
+                    <!--checkbox check 위치-->
+                    <div class="plan">
+                        <span>
+                            <p>
+                                <b>8:00AM</b><br>eating breakfast                     
+                            </p>
+                            <div class="plan_check">
+                                <input type="checkbox" id="check1" />
+                                <label for="check1"></label>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="plan">
+                        <span>
+                            <p>
+                                <b>10:00AM</b><br>take a bus
+                            </p>
+                            <div class="plan_check" >
+                                <input type="checkbox" id="check2" />
+                                <label for="check2"></label>
+                            </div>                           
+                        </span>          
+                    </div>
+                    <div class="plan">
+                        <span>
+                            <p>
+                                <b>13:00PM</b><br>codingon-class
+                            </p>
+                            <div class="plan_check">
+                                <input type="checkbox" id="check3" />
+                                <label for="check3"></label>
+                            </div>                                
+                        </span>
+                    </div>
+                </div>
+            </div>   
+
+            <div class="left_side_footer">
+                <input type="button" value="+ add plan" class="add_btn">
+                <div></div>
+            </div>
+        </div>
+
+
+        <div class="right_side">   
+            <div class="caledndar">
+                <div class="calendar_header">
+                    <div>
+                        <b>2022 </b>JULY
+                    </div>
+                    <div class="user_info">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <span style="font-size: 13px; line-height: 17px;">
+                            <b>wan_planner</b><br>2jin_j@naver.com
+                        </span>
+                    </div>
+                    <div class="date_btn">
+                        <input type="button" value="<">
+                        <input type="button" value="month">
+                         <input type="button" value=">">
+                    </div>
+                    
+                </div>
+
+                <!--calendar part-->
+                <div class="calendar_main">
+                    <div class="day">
+                        <span>SUN</span>
+                        <span>MON</span>
+                        <span>TUE</span>
+                        <span>WED</span>
+                        <span>THU</span>
+                        <span>FRI</span>
+                        <span>SAT</span>
+                    </div>
+                    <div class="day">
+                        <span class="past_day" id="sunday">26</span>
+                        <span class="past_day">27</span>
+                        <span class="past_day">28</span>
+                        <span class="past_day">29</span>
+                        <span class="past_day">30</span>
+                        <span>
+                            1 <!--크기 적용없이 일정 밑에 넣는법?-->
+                            <span id="posco_day">posco day</span>
+                        </span>
+                        <span>2</span>
+                    </div>
+                    <div class="day">
+                        <span id="sunday">3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                    </div>
+                    <div class="day">
+                        <span id="sunday">10</span>
+                        <span>11</span>
+                        <span>12</span>
+                        <span>13</span>
+                        <span>14</span>
+                        <span>15</span>
+                        <span>16</span>
+                    </div>
+                    <div class="day">
+                        <span id="sunday">17</span>
+                        <span>18</span>
+                        <span>19</span>
+                        <span>20</span>
+                        <span>21</span>
+                        <span>22</span>
+                        <span>23</span>
+                    </div>
+                    <div class="day">
+                        <span id="sunday">24</span>
+                        <span>25</span>
+                        <span>26</span>
+                        <span>27</span>
+                        <span>28</span>
+                        <span>29</span>
+                        <span>30</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
