@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul, li {
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    float: left;   
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    background-image: url(https://www.twosome.co.kr/resources/images/common/logo_black.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 216px;
+    height: 30px;
+    margin: 41px 0 0 24px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 40px 0;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav .list {
+    position: absolute;
+}
+
+nav .down_list_1>li {
+    float: none;
+    opacity: 0;
+}
+
+nav .down_list_2>li {
+    float: none;
+}
+
+nav .down_list_1>li:hover {
+    opacity: 1;
+}
+
+/* .list>.list_title:hover nav .down_list_1 {
+    opacity: 1;
+} */
+
+
+.btn {
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin: 38px 64px 0 0;
+    background-image: url(https://www.twosome.co.kr/resources/images/icon/ico_24_allmenu_black.svg);
+}
+
+
+
+
+/*main*/
+.row_section {
+    margin-top: 100px;
+}
+
+.title1 {
+    font-size: 72px;
+    font-weight: 700;
+    width: 100%;
+    height: 100px;
+    line-height: 100;   
+}
+
+
+.section2 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.main_title {
+    font-size: 56px;
+    font-weight: 800px;
+}
+
+.main_desc1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.main_desc2 {
+    margin-top: 64px;
+    padding-right: 32px;
+}
+
+
+
+/*table*/
+table {
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.menu_name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu_name:hover {
+    font-size: 30px;
+}
+
+.menu_name_eng {
+    font-size: 16px;
+    font-family: "Mark Pro";
+    color: #707070;
+}
+
+.menu_desc1 {
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.menu_desc2 {
+    font-size: 14px;
+    color: #707070;
+}
+
+td:nth-child(2n) {
+    background-color: rgb(204, 204, 204);
+}
+
+th {
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+
+
+
+
+
