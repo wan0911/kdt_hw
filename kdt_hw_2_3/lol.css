@@ -16,6 +16,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-evenly;
     margin: auto;
+    align-content: center;
     background-color: black;
 }
 
