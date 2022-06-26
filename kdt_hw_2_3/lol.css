@@ -1,0 +1,169 @@
+
+body {
+    background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/bw_lolclient_card_building_bilgewater.jpg?itok=3PQItzhn");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+
+}
+
+.container .champions {
+    max-width: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: black;
+}
+
+.container .champions .champion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 3px 0;
+    color: rgba(221, 212, 202, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.champions .champion div:first-child {
+    /* position: relative; */
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .7s;
+}
+
+.border {
+    border: 1px solid rgb(126, 117, 107);                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
+}
+
+.name {
+    margin-top: 5px;
+}
+
+.champions .champion .border .image:hover {
+    box-sizing: border-box;
+    transform: scale(1.1);
+    border: 1px solid rgb(226, 214, 196);
+    z-index: 1;
+}
+
+.champions .champion div:first-child:active {
+    transform: scale(0.9);
+    border: 0px solid black;
+    filter: grayscale(100%);
+}
+
+.circle {
+    background-image: url("./circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(243, 233, 206)); 
+    z-index: 2;
+}
+
+
+
+/*champion image*/
+.image1 {
+    background-image: url("./champions/champions/01.png");
+}
+.image2 {
+    background-image: url("./champions/champions/02.png");
+}
+.image3 {
+    background-image: url("./champions/champions/03.png");
+}
+.image4 {
+    background-image: url("./champions/champions/04.png");
+}
+.image5 {
+    background-image: url("./champions/champions/05.png");
+}
+.image6 {
+    background-image: url("./champions/champions/06.png");
+}
+.image7 {
+    background-image: url("./champions/champions/07.png");
+}
+.image8 {
+    background-image: url("./champions/champions/08.png");
+}
+.image9 {
+    background-image: url("./champions/champions/09.png");
+}
+.image10 {
+    background-image: url("./champions/champions/10.png");
+}
+.image11 {
+    background-image: url("./champions/champions/11.png");
+}
+.image12 {
+    background-image: url("./champions/champions/12.png");
+}
+.image13 {
+    background-image: url("./champions/champions/13.png");
+}
+.image14 {
+    background-image: url("./champions/champions/14.png");
+}
+.image15 {
+    background-image: url("./champions/champions/15.png");
+}
+.image16 {
+    background-image: url("./champions/champions/16.png");
+}
+.image17 {
+    background-image: url("./champions/champions/17.png");
+}
+.image18 {
+    background-image: url("./champions/champions/18.png");
+}
+.image19 {
+    background-image: url("./champions/champions/19.png");
+}
+.image20 {
+    background-image: url("./champions/champions/20.png");
+}
+.image21 {
+    background-image: url("./champions/champions/21.png");
+}
+.image22 {
+    background-image: url("./champions/champions/22.png");
+}
+.image23 {
+    background-image: url("./champions/champions/23.png");
+}
+.image24 {
+    background-image: url("./champions/champions/24.png");
+}
+.image25 {
+    background-image: url("./champions/champions/25.png");
+}
+.image26 {
+    background-image: url("./champions/champions/26.png");
+}
+.image27 {
+    background-image: url("./champions/champions/27.png");
+}
+.image28 {
+    background-image: url("./champions/champions/28.png");
+}
+.image29 {
+    background-image: url("./champions/champions/29.png");
+}
+.image30 {
+    background-image: url("./champions/champions/30.png");
+}
+
