@@ -136,7 +136,7 @@ header .inner .sub_menu ul>li.item .item__contents>ul.inner {
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li {
-    width: 320px;
+    width: 300px;
     padding: 10px 30px 30px 10px;
 }
 
@@ -146,7 +146,6 @@ header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>a {
     text-decoration: none;
     color: black;
 }
-
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>ul {}
 
