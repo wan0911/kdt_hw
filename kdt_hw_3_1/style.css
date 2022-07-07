@@ -120,7 +120,6 @@ header .inner .sub_menu ul>li.item .item__contents {
     background-color: white;
 }
 
-
 header .inner .sub_menu ul>li.item:hover .item__contents {
     position: fixed;
     top: 72px;
@@ -136,8 +135,8 @@ header .inner .sub_menu ul>li.item .item__contents>ul.inner {
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li {
-    width: 300px;
-    padding: 10px 30px 30px 10px;
+    width: 310px;
+    padding: 10px 30px 30px 20px;
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>a {
