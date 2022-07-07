@@ -113,7 +113,6 @@ header .inner .sub_menu ul>li.item:hover>span{
 /* SUB MENU > ITEM CONTENTS */
 header .inner .sub_menu ul>li.item .item__contents {
     position: fixed;
-    /* top: 72px; */
     left: 0;
     width: 100%;
     display: none;
@@ -123,7 +122,6 @@ header .inner .sub_menu ul>li.item .item__contents {
 
 
 header .inner .sub_menu ul>li.item:hover .item__contents {
-    display: none;
     position: fixed;
     top: 72px;
     left: 0;
@@ -134,13 +132,12 @@ header .inner .sub_menu ul>li.item:hover .item__contents {
 header .inner .sub_menu ul>li.item .item__contents>ul.inner {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 100%;
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li {
     width: 320px;
-    padding: 10px 10px 0 30px;
-    
+    padding: 10px 30px 30px 10px;
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>a {
@@ -158,8 +155,8 @@ header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>ul>li {
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>ul>li>span {
-    font-size: 25px;
-    margin: 10px 10px 0 0;
+    font-size: 30px;
+    margin: 15px 10px 0 0;
 }
 
 header .inner .sub_menu ul>li.item .item__contents>ul.inner>li>ul>li>div {
