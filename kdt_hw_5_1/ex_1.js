@@ -16,6 +16,10 @@ table.addEventListener("click", function (e) {
         // console.log(e.target.parentNode);
         target = e.target.parentNode;
     }
+
+    if (e.target.tagName === "DIV") {
+        e.target.remove();
+    }
 })
 
 function writeSchedule() {
@@ -23,9 +27,10 @@ function writeSchedule() {
     divEl.textContent = innerText.value;
     target.append(divEl);
 
-    divEl.addEventListener("click", function () {
-        divEl.remove();
-    })
+    // divEl.addEventListener("click", function () {
+    //     divEl.remove();
+    // })
+    innerText.value = "";
 }
 
 
